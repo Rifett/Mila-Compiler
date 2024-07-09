@@ -1,0 +1,9 @@
+program Abobus;
+
+var X : integer;
+begin
+    X := 3;
+    writeln(X);
+    readln(X);
+    writeln(X);
+end.
