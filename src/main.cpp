@@ -11,7 +11,7 @@ int main (int argc, char *argv[])
     }
 
     std::error_code ERR;
-    llvm::raw_fd_ostream outLL("result.ll", ERR);
+    llvm::raw_fd_ostream outLL(argv[2], ERR);
 
     parser.Generate()->print(outLL, nullptr);
 
