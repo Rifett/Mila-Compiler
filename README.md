@@ -4,46 +4,46 @@ This project is an extension of the LLVM compiler suite, providing a frontend fo
 
 Features
 
-    Constant and Variable Declarations (integer, array and string datatypes)
+- Constant and Variable Declarations (integer, array and string datatypes)
 
-    Function Deffinitions, Declarations and Calls
+- Function Deffinitions, Declarations and Calls
 
-    Procedure Deffinitions
+- Procedure Deffinitions
 
-    Arithmetic and Logic Expressions
-        +, -, *, div, mod, dec, and, or, xor, not
+- Arithmetic and Logic Expressions
+        `+, -, *, div, mod, dec, and, or, xor, not`
 
-    Parentheses for grouping
+- Parentheses for grouping
 
-    Assignment
+- Assignment
 
-    Number Constants in Hexadecimal and Octal System
+- Number Constants in Hexadecimal and Octal System
 
-    Blocks Nesting
+- Blocks Nesting
 
-    Control Flow Statements
-        if, while, for, exit
+- Control Flow Statements
+        `if, while, for, exit`
         
-    Input/Output Statements
-        readln, write, writeln using scanf and printf
+- Input/Output Statements
+        `readln, write, writeln using scanf and printf`
         
-    Recursion (Direct & Indirect)
+- Recursion (Direct & Indirect)
 
 ## Installation
 
 ### Prerequisites
-    LLVM
-    C++17 or later
-    CMake
+- LLVM
+- C++17 or later
+- CMake
 
 ### Steps
 
-1.) Clone the repository
+- Clone the repository
 ```bash
 git clone https://github.com/Rifett/Mila-Compiler.git
 cd Mila-Compiler
 ```
-2.) Build the project
+- Build the project
 ```bash
 mkdir build
 cd build
