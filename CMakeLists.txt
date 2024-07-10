@@ -9,15 +9,15 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Add the source files
 set(SOURCES
-    main.cpp
-    Lexer.cpp
-    Parser.cpp
+    src/main.cpp
+    src/Lexer.cpp
+    src/Parser.cpp
 )
 
 # Add the header files
 set(HEADERS
-    Lexer.hpp
-    Parser.hpp
+    src/Lexer.hpp
+    src/Parser.hpp
 )
 
 # Add the executable
