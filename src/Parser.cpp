@@ -639,7 +639,7 @@ Value *Parser::Program_node::codegen()  {
         i->codegen();
     for (auto & i: statement)
         i->codegen();
-    Builder->CreateRet(ConstantInt::get(Type::getInt32Ty(*TheContext), APInt(32, 0)));
+    return Builder->CreateRet(ConstantInt::get(Type::getInt32Ty(*TheContext), APInt(32, 0)));
 }
 //OK
 
@@ -1046,7 +1046,7 @@ Value *Parser::Dec_node::codegen()  {
 Value *Parser::Exit_node::codegen()  {
     BasicBlock *RetBl = Builder->GetInsertBlock()->getParent()->getBasicBlockList().front().getNextNode();
 
-    Builder->CreateBr(RetBl);
+    return Builder->CreateBr(RetBl);
 }
 //OK
 
