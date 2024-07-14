@@ -1,8 +1,9 @@
 # Mila Language LLVM Frontend
 
+## Overview
 This project is an extension of the LLVM compiler suite, providing a frontend for the Mila programming language, which is inspired by Pascal. The compiler translates Mila source code into LLVM Intermediate Representation (IR), which then can be executed by `lli` command (more in Usage section).
 
-Features
+## Features
 
 - Constant and Variable Declarations (integer, array and string datatypes)
 
